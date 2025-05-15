@@ -1,0 +1,10 @@
+**/*.js
+**/*.ts
+**/*.png
+**/*.jpg
+**/*.ttf
+**/*.tsx
+**/*.jsx
+node_modules/
+dist/
+public/
