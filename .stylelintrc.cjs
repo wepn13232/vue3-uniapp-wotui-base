@@ -4,7 +4,6 @@ module.exports = {
         "stylelint-config-html"
     ],
     "rules": {
-        "indentation": [4], //使用4个空格缩进
         "selector-pseudo-class-no-unknown": null, //允许未知伪类选择器
         "selector-pseudo-element-no-unknown": null, //允许未知伪元素选择器
         "no-empty-source": null, //允许空源
@@ -16,5 +15,12 @@ module.exports = {
         "no-duplicate-selectors":null, //允许重复的选择器
         "custom-property-pattern":null, //允许自定义属性自定义命名
         "color-function-notation":null, //允许颜色函数简写
+        "unit-allowed-list": ["px", "rpx"], //允许的单位
+        "unit-no-unknown": [
+            true,
+            {
+                ignoreUnits: ["rpx"] // 明确忽略 rpx 单位的检查
+            }
+        ],
     }
 }

@@ -36,7 +36,8 @@
         "lint-staged": "lint-staged",
         "prepare": "husky install",
         "tslint": "vue-tsc",
-        "stylelint": "stylelint src --fix"
+        "stylelint": "stylelint src --fix",
+        "eslint": "eslint --fix --ext .ts,.vue,.js src"
     },
     "lint-staged": {
         "src/**/*.{vue,scss,css}": [
@@ -77,13 +78,21 @@
         "vite": "5.2.8",
         "vue-tsc": "^1.8.27",
         "husky": "^8.0.3",
-        "lint-staged": "14.0.1",
+        "lint-staged": "15.5.2",
         "postcss": "^8.4.38",
         "postcss-html": "^1.4.1",
         "pre-commit": "^1.2.2",
         "prettier": "^2.8.8",
-        "stylelint": "^15.11.0",
-        "stylelint-config-html": "^1.0.0",
-        "stylelint-config-standard-scss": "^7.0.1"
+        "stylelint": "^16.19.1",
+        "stylelint-config-html": "^1.1.0",
+        "stylelint-config-standard-scss": "^14.0.0",
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.13.0",
+        "@typescript-eslint/eslint-plugin": "8.31.1",
+        "@typescript-eslint/parser": "8.32.0",
+        "@babel/eslint-parser": "^7.27.0",
+        "@stylistic/eslint-plugin-ts": "^2.13.0"
     }
 }

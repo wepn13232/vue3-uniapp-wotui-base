@@ -129,6 +129,7 @@ module.exports = {
         "template-curly-spacing": ["error", "always"], // 要求模板字符串中空格一致
         "@stylistic/ts/type-annotation-spacing": ["warn", {"before": false, "after": true}], // 要求类型注解中空格一致
         "vue/attribute-hyphenation": 'off', // 关闭属性命名使用驼峰命名
-        "curly":"error"
+        "curly":"error",
+        "@typescript-eslint/no-empty-object-type":0,
     },
 }
