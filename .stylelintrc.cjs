@@ -15,12 +15,12 @@ module.exports = {
         "no-duplicate-selectors":null, //允许重复的选择器
         "custom-property-pattern":null, //允许自定义属性自定义命名
         "color-function-notation":null, //允许颜色函数简写
-        "unit-allowed-list": ["px", "rpx"], //允许的单位
         "unit-no-unknown": [
             true,
             {
                 ignoreUnits: ["rpx"] // 明确忽略 rpx 单位的检查
             }
         ],
+        'scss/load-partial-extension': null,
     }
 }

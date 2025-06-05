@@ -7,5 +7,6 @@
 **/*.jsx
 node_modules/
 dist/
+static/
 public/
 **/*.json

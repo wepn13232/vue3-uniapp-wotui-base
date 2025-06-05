@@ -30,6 +30,8 @@ module.exports = {
         defineEmits: 'readonly',
         defineExpose: 'readonly',
         withDefaults: 'readonly',
+        wx:true,
+        uni:true
     },
     // 这里时配置规则的,自己看情况配置
     rules: {
